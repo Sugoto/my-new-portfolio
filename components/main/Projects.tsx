@@ -12,19 +12,22 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/portfolio.png"
           title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="My personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion."
+          link="https://sugotobasu.vercel.app/"
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/anetha.png"
+          title="AI-Powered Financial Analyst"
+          description="A financial analyst agent built for Selendis Technologies that provides insights on market trends and predictions, along with LLM powered chat interface."
+          link="https://anetha.selendis.co/"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/trading.png"
+          title="Unsupervised Trading Strategy using Python and ML"
+          description="Dive into the S&P 500 market with this project, which employs unsupervised learning techniques to identify top-performing stocks, leveraging K-Means Clustering and Efficient Frontier optimization for a dynamic portfolio."
+          link="https://github.com/Sugoto/Algorithmic-Trading-Using-Unsupervised-Learning"
         />
       </div>
     </div>
